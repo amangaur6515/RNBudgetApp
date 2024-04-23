@@ -52,7 +52,7 @@ const HomeScreen = () => {
                 plannedAmount
             }
             dispatch(saveBudget(budget))
-            console.log(store.getState().budget);
+            //console.log(store.getState().budget);
             setItemName("");
             setActualAmount("");
             setPlannedAmount("");
